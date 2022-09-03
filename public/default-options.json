@@ -1,0 +1,36 @@
+{
+  "keybinds": {
+    "left": [37, 65],
+    "right": [39, 68],
+    "hd": [32, 85],
+    "sd": [40, 83],
+    "lrot": [17, 74],
+    "rrot": [38, 75],
+    "180": [76, 67],
+    "hold": [16, 72],
+    "reset": [82]
+  },
+  "tuning": {
+    "DAS": 170,
+    "ASR": 60,
+    "SDR": 10,
+    "ALD": 500
+  },
+  "game": {
+    "width": 10,
+    "height": 20,
+    "gravity": 0
+  },
+  "visual": {
+    "colors": {
+      "red": "#DC143C",
+      "green": "#228B22",
+      "blue": "#1f4fbf",
+      "orange": "orange",
+      "cyan": "#42afe1",
+      "yellow": "#FFD700",
+      "purple": "#663399",
+      "grey": "#A9A9A9"
+    }
+  }
+}

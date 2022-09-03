@@ -1,0 +1,110 @@
+button {
+  display: block;
+  color: white;
+  background: #363941;
+  border: 2px solid white;
+  border-radius: 6px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  padding: 10px 10px;
+  width: 40%;
+/*   transform: translate(0%, 0%); */
+  transform: scale(1, 1) translate(-50%, 0%);
+  font-size: 150%;
+}
+
+button:hover{
+  color: #363941;
+  background: white;
+  transform: translate(-50%, 5%) rotate(2deg);
+/*   animation: easeOutElastic 0.5s; */
+}
+
+@keyframes easeOutElastic {
+  from {
+    transform: translate(-50%, 0%) scale (1);
+  }
+	0% {
+		transform: translate(-50%, 0%) scale(1);
+	}
+
+	16% {
+		transform: translate(-50%, 0%) scale(1.52);
+	}
+
+	28% {
+		transform: translate(-50%, 0%) scale(1.07);
+	}
+
+	44% {
+		transform: translate(-50%, 0%) scale(1.25);
+	}
+
+	59% {
+		transform: translate(-50%, 0%) scale(1.18);
+	}
+
+	73% {
+		transform: translate(-50%, 0%) scale(1.21);
+	}
+
+	88% {
+		transform: translate(-50%, 0%) scale(1.2);
+	}
+
+	100% {
+		transform: translate(-50%, 0%) scale(1.2);
+	}
+  to {
+    transform: translate(-50%, 0%) scale(1.2);
+  }
+
+}
+
+/* button:active{
+  color: white;
+  background: black;
+} */
+
+.main-button{
+/*   font-size: 1000%; */
+}
+
+.logo {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-group {
+  display: block;
+  width: 30%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(0%, -50%);
+}
+body {
+  overflow: hidden;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  transform-origin: center;
+/*   transform: translate(0%, 0%); */
+  transition-duration: 1s;
+}
+
+canvas {
+  transition-duration: 0s;
+}
+
+.settings {
+  display: block;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  margin-bottom: 1rem;
+}
