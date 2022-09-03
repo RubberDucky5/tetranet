@@ -1,0 +1,145 @@
+   {
+  "version": "1.0",
+  "name": "root",
+  "type": "folder",
+  "sub": {
+    "resetButton": {
+      "name": "Reset All",
+      "type": "button",
+      "onclick": "resetOptions();"
+    },
+    "keybinds": {
+      "name": "Controls",
+      "type": "folder",
+      "sub": {
+        "left": {
+          "name": "Left Move",
+          "type": "keybinds",
+          "default": [37, 65]
+        },
+        "right": {
+          "name": "Right Move",
+          "type": "keybinds",
+          "default": [39, 68]
+        },
+        "hd": {
+          "name": "Hard Drop",
+          "type": "keybinds",
+          "default": [32, 85]
+        },
+        "sd": {
+          "name": "Soft Drop",
+          "type": "keybinds",
+          "default": [40, 83]
+        },
+        "lrot": {
+          "name": "Left Rotation",
+          "type": "keybinds",
+          "default": [17, 74]
+        },
+        "rrot": {
+          "name": "Right Rotation",
+          "type": "keybinds",
+          "default": [38, 75]
+        },
+        "180": {
+          "name": "180 Rotation",
+          "type": "keybinds",
+          "default": [76, 67]
+        },
+        "hold": {
+          "name": "Hold",
+          "type": "keybinds",
+          "type": [16, 72]
+        },
+        "reset": {
+          "name": "Reset",
+          "type": "keybinds",
+          "default": [82]
+        }
+      }
+    },
+    "tuning": {
+      "name": "Tuning",
+      "type": "folder",
+      "sub": {
+        "DAS": {
+          "name": "Auto Shift Delay",
+          "type": "slider",
+          "range": [1, 1000],
+          "default": 170
+        },
+        "ASR": {
+          "name": "Auto Shift Rate",
+          "type": "slider",
+          "range": [1, 1000],
+          "default": 170
+        },
+        "SDR": {
+          "name": "Soft Drop Rate",
+          "type": "slider",
+          "range": [1, 1000],
+          "default": 10
+        },
+        "ASR": {
+          "name": "Auto Lock Delay",
+          "type": "slider",
+          "range": [0, 500],
+          "default": 500
+        }
+      }
+    },
+    "visual": {
+      "name": "Visual",
+      "type": "folder",
+      "sub": {
+        "colors": {
+          "name": "Color Overides",
+          "type": "folder",
+          "sub": {
+            "red": {
+              "name": "Red",
+              "type": "color",
+              "default": "#DC143C"
+            },
+            "green": {
+              "name": "Green",
+              "type": "color",
+              "default": "#228B22"
+            },
+            "blue": {
+              "name": "Blue",
+              "type": "color",
+              "default": "#1f4fbf"
+            },
+            "orange": {
+              "name": "Orange",
+              "type": "color",
+              "default": "orange"
+            },
+            "cyan": {
+              "name": "Cyan",
+              "type": "color",
+              "default": "#42afe1"
+            },
+            "yellow": {
+              "name": "Yellow",
+              "type": "color",
+              "default": "#FFD700"
+            },
+            "purple": {
+              "name": "Purple",
+              "type": "color",
+              "default": "#663399"
+            },
+            "grey": {
+              "name": "Grey",
+              "type": "color",
+              "default": "#A9A9A9"
+            }
+          }
+        }
+      }
+    }
+  }
+}

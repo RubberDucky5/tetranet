@@ -1,0 +1,22 @@
+{
+  "name": "tetranet",
+  "version": "1.0.0",
+  "description": "Multiplayer tetris",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://f3dff7b7-f0e0-454b-a32a-e2a23df8f13f@api.glitch.com/git/tetranet"
+  },
+  "keywords": [
+    "blockgame",
+    "multiplayer"
+  ],
+  "author": "Jame",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
